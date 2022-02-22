@@ -14,7 +14,7 @@
               </div> */}
 
 document.getElementById('btn').addEventListener('click', function(){
-    fetch('https://jsonplaceholder.typicode.com/posts')
+    fetch('https://iamyeasirarafat.github.io/sample/post.json')
     .then (response => response.json())
     .then(data => getPost(data))
     function getPost(posts){
